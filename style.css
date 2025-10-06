@@ -7,11 +7,21 @@
 :root {
   --text-color: white;
   --bg-url: url(./assets/bg-mobile.jpg);
+  --stroke-color: rgba(255, 255, 255, 0.5);
+  --surface-color: rgba(255, 255, 255, 0.05);
+  --surface-color-hover: rgba(0, 0, 0, 0.02);
+  --social-links-hover: rgba(255, 255, 255, 0.2);
+  --switch-icon: url(./assets/moon-stars.svg);
 }
 
 .light-mode {
   --text-color: black;
   --bg-url: url(./assets/bg-mobile-light.jpg);
+  --stroke-color: rgba(0, 0, 0, 0.5);
+  --surface-color: rgba(0, 0, 0, 0.05);
+  --surface-color-hover: rgba(0, 0, 0, 0.02);
+  --social-links-hover: rgba(0, 0, 0, 0.1);
+  --switch-icon: url(./assets/sun.svg);
 }
 
 body {
@@ -51,39 +61,6 @@ body * {
   margin-top: 8px;
 }
 
-ul {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  margin: 24px;
-}
-
-ul li a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  padding: 16px 24px;
-
-  background-color: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 8px;
-
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
-
-  text-decoration: none;
-  font-weight: 500;
-
-  transition: background 0.2s;
-}
-
-ul li a:hover {
-  background: rgba(255, 255, 255, 0.05);
-  border: 1.5px solid var(--text-color);
-}
-
 #social-links {
   font-size: 24px;
   display: flex;
@@ -99,9 +76,61 @@ ul li a:hover {
 }
 
 #social-links a:hover {
-  background: rgba(255, 255, 255, 0.25);
+  background: var(--social-links-hover);
   border-radius: 50%;
   transition: background 0.2s;
+}
+
+#switch button {
+  width: 32px;
+  height: 32px;
+  background: white var(--switch-icon) no-repeat center;
+  border: 0;
+  border-radius: 50%;
+}
+
+#switch span {
+  display: block;
+  width: 64px;
+  height: 24px;
+  background: var(--surface-color);
+  border: 1px solid var(--stroke-color);
+  border-radius: 9999px;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 24px;
+}
+
+ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 16px 24px;
+
+  background: var(--surface-color);
+  border: 1px solid var(--stroke-color);
+  border-radius: 8px;
+
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+
+  text-decoration: none;
+  font-weight: 500;
+
+  transition: background 0.2s;
+}
+
+ul li a:hover {
+  background: var(--surface-color-hover);
+  border: 1.5px solid var(--text-color);
 }
 
 footer {
@@ -109,10 +138,4 @@ footer {
   text-align: center;
   margin-bottom: 32px;
   font-size: 14px;
-}
-
-p {
-  color: red; /*Tirar depois*/
-  /*testando outra vez*/
-  /*de novo*/
 }
