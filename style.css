@@ -110,3 +110,7 @@ footer {
   margin-bottom: 32px;
   font-size: 14px;
 }
+
+p {
+  color: red; /*Tirar depois*/
+}
