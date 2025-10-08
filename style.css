@@ -1,3 +1,4 @@
+/* Definições gerais da web */
 * {
   margin: 0;
   padding: 0;
@@ -24,6 +25,7 @@
   --switch-icon: url(./assets/sun.svg);
 }
 
+/* corpo */
 body {
   /*
   background-image: url(./assets/bg-mobile.jpg);
@@ -41,11 +43,13 @@ body * {
   color: var(--text-color);
 }
 
+/* container - conteúdo */
 #container {
   width: 360px;
   margin: 56px auto 0px;
 }
 
+/* profile - perfil*/
 #profile {
   text-align: center;
   padding: 24px;
@@ -61,24 +65,11 @@ body * {
   margin-top: 8px;
 }
 
-#social-links {
-  font-size: 24px;
-  display: flex;
-  justify-content: center;
-  padding: 16px; /*margin ou padding*/
-}
-
-#social-links a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 16px;
-}
-
-#social-links a:hover {
-  background: var(--social-links-hover);
-  border-radius: 50%;
-  transition: background 0.2s;
+/* switch - alavanca */
+#switch {
+  position: relative;
+  width: 64px;
+  margin: 4px auto;
 }
 
 #switch button {
@@ -87,6 +78,12 @@ body * {
   background: white var(--switch-icon) no-repeat center;
   border: 0;
   border-radius: 50%;
+
+  position: absolute;
+  top: 50%;
+  right: 0;
+  z-index: 1;
+  transform: translateY(-50%);
 }
 
 #switch span {
@@ -100,6 +97,7 @@ body * {
   -webkit-backdrop-filter: blur(4px);
 }
 
+/* lista de links - ul*/
 ul {
   list-style: none;
   display: flex;
@@ -133,6 +131,28 @@ ul li a:hover {
   border: 1.5px solid var(--text-color);
 }
 
+/* social-links - pequenos botoes direcionadores*/
+#social-links {
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  padding: 16px; /*margin ou padding*/
+}
+
+#social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
+
+#social-links a:hover {
+  background: var(--social-links-hover);
+  border-radius: 50%;
+  transition: background 0.2s;
+}
+
+/* footer - rodapé */
 footer {
   padding: 24px;
   text-align: center;
