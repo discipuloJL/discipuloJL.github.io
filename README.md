@@ -31,6 +31,10 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Git e Github
 - Figma
 
+## 😄 Meu aprendizado
+
+Com este projeto, eu aprendi a usar de forma muito prática a linguagem de marcação HTML, de estilo, CSS, e de programação, JavaScript; O legal é que ensina-se a usar o próprio Git e Github, que eu já vinha commitando o projeto antes mesmo do módulo e, além disso, eu aprendi a usar o Figma, ferramenta que eu não conhecia antes, mas que é muito útil no meio de desenvolvimento de interfaces de usuário (UI). Fiz algumas alterações com fotos ghibli minhas e links pessoais, com o objetivo de aprender a usar mesmo as ferramentas e me sinto um verdadeiro dev agora. Sei que não para aqui, tenho muito o que aprender pela frente! Sou grato a Deus por concluir esse projeto e agradeço também à RocketSeat que tem me ajudado muito no meu aprendizado.
+
 ## 💻 Projeto
 
 O DevLinks é um agregador de links para usar como cartão de visitas online.
