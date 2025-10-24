@@ -1,6 +1,6 @@
 # 🪐 DiscipuloJL — Links Pessoais
 
-Meu site pessoal desenvolvido com **HTML, CSS e JavaScript**, inspirado no projeto **DevLinks** do Discover da [Rocketseat](https://www.rocketseat.com.br/).  
+Meu site pessoal desenvolvido com **HTML, CSS e JavaScript**.  
 Aqui você encontra meus principais links, redes e projetos.
 
 🔗 **Acesse em:** [discipulojl.github.io](https://discipulojl.github.io)
@@ -32,7 +32,7 @@ Este projeto foi **inspirado no DevLinks**, do programa **Discover da Rocketseat
 ## 📫 Contato
 
 Se quiser trocar uma ideia ou conferir meus outros projetos:  
-📧 **Email:** *seu-email@exemplo.com*  
+📧 **Email:** *contatolucas540@gmail.com*  
 💻 **GitHub:** [github.com/discipulojl](https://github.com/discipulojl)
 
 ---
@@ -43,4 +43,5 @@ Feito por **DiscipuloJL**
 Esse projeto está sob a licença MIT.
 
 JESUS TE AMA!
+
 ---
