@@ -6,16 +6,6 @@
 }
 
 :root {
-  --text-color: #aae7ff;
-  --bg-url: url(./assets/bg-mobile.jpg);
-  --stroke-color: rgba(255, 255, 255, 0.5);
-  --surface-color: rgba(17, 180, 255, 0.158);
-  --surface-color-hover: rgba(13, 33, 75, 0.726);
-  --highlight-color: rgba(255, 255, 255, 0.2);
-  --switch-icon: url(./assets/moon-stars.svg);
-}
-
-.light-mode {
   --text-color: #aaffae;
   --bg-url: url(./assets/bg-mobile-light.jpg);
   --stroke-color: rgba(0, 0, 0, 0.5);
@@ -23,6 +13,16 @@
   --surface-color-hover: rgba(13, 75, 18, 0.726);
   --highlight-color: rgba(0, 0, 0, 0.1);
   --switch-icon: url(./assets/sun.svg);
+}
+
+.dark-mode {
+  --text-color: #aae7ff;
+  --bg-url: url(./assets/bg-mobile.jpg);
+  --stroke-color: rgba(255, 255, 255, 0.5);
+  --surface-color: rgba(17, 180, 255, 0.158);
+  --surface-color-hover: rgba(13, 33, 75, 0.726);
+  --highlight-color: rgba(255, 255, 255, 0.2);
+  --switch-icon: url(./assets/moon-stars.svg);
 }
 
 /* corpo */
@@ -91,7 +91,7 @@ body * {
   animation: turn-off 0.2s;
 }
 
-.light-mode #switch button {
+.dark-mode #switch button {
   animation: turn-on 0.2s forwards;
 }
 
@@ -183,11 +183,11 @@ footer a {
 /* media queries */
 @media (min-width: 700px) {
   :root {
-    --bg-url: url(./assets/bg-desktop.jpg);
+    --bg-url: url(./assets/bg-desktop-light.jpg);
   }
 
-  .light-mode {
-    --bg-url: url(./assets/bg-desktop-light.jpg);
+  .dark-mode {
+    --bg-url: url(./assets/bg-desktop.jpg);
   }
 }
 
