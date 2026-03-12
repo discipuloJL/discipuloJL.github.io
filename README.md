@@ -19,7 +19,8 @@ Aqui você encontra meus principais links, redes e projetos.
 
 - Atualização de **links e imagens pessoais**  
 - Ajustes no **layout e conteúdo**  
-- Melhorias visuais e de responsividade  
+- Melhorias visuais e de responsividade
+- Modo padrão como modo claro 
 
 ---
 
