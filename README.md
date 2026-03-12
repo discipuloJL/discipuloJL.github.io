@@ -34,8 +34,7 @@ Este projeto foi **inspirado no DevLinks**, do programa **Discover da Rocketseat
 
 Se quiser trocar uma ideia ou conferir meus outros projetos:  
 📧 **Email:** *contatolucas540@gmail.com*  
-💻 **GitHub:** [github.com/discipulojl](https://github.com/discipulojl)
-
+💻 **GitHub:** [github.com/discipulojl](https://github.com/discipulojl)  
 🌐️ **LinkedIn:** [linkedin.com/in/discipulojl](www.linkedin.com/in/discipulojl)
 
 ---
