@@ -40,7 +40,7 @@ Se quiser trocar uma ideia ou conferir meus outros projetos:
 
 ---
 
-Feito por **DiscipuloJL**
+Feito por **JL**
 
 
 Esse projeto está sob a licença MIT.
