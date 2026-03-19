@@ -44,4 +44,4 @@ Esse projeto está sob a licença MIT.
 
 Site construído e mantido por **JL**
 
->>> JESUS CRISTO SALVA! <<<
+> JESUS CRISTO SALVA!
