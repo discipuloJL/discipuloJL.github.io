@@ -41,6 +41,7 @@ Se quiser trocar uma ideia ou conferir meus outros projetos:
 ---
 
 Esse projeto está sob a licença MIT.
+
 Site construído e mantido por **JL**
 
-JESUS CRISTO SALVA!
+>>> JESUS CRISTO SALVA! <<<
