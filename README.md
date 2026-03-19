@@ -1,4 +1,4 @@
-# 🪐 DiscipuloJL — Links Pessoais
+# 🪐 JL — Link-tree
 
 Meu site pessoal desenvolvido com **HTML, CSS e JavaScript**.  
 Aqui você encontra meus principais links, redes e projetos.
@@ -20,7 +20,8 @@ Aqui você encontra meus principais links, redes e projetos.
 - Atualização de **links e imagens pessoais**  
 - Ajustes no **layout e conteúdo**  
 - Melhorias visuais e de responsividade
-- Modo padrão como modo claro 
+- Modo padrão como modo claro
+- Personalização própria
 
 ---
 
@@ -35,7 +36,7 @@ Este projeto foi **inspirado no DevLinks**, do programa **Discover da Rocketseat
 Se quiser trocar uma ideia ou conferir meus outros projetos:  
 📧 **Email:** *contatolucas540@gmail.com*  
 💻 **GitHub:** [github.com/discipulojl](https://github.com/discipulojl)  
-🌐️ **LinkedIn:** [linkedin.com/in/discipulojl](www.linkedin.com/in/discipulojl)
+🌐️ **LinkedIn:** [linkedin.com/in/jlcodelab](www.linkedin.com/in/jlcodelab)
 
 ---
 
