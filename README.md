@@ -45,6 +45,4 @@ Feito por **DiscipuloJL**
 
 Esse projeto está sob a licença MIT.
 
-JESUS TE AMA!
-
----
+JESUS CRISTO SALVA!
