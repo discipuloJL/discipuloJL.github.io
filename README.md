@@ -3,7 +3,7 @@
 Meu site pessoal desenvolvido com **HTML, CSS e JavaScript**.  
 Aqui você encontra meus principais links, redes e projetos.
 
-🔗 **Acesse em:** [discipulojl.github.io](https://discipulojl.github.io)
+🔗 **Acesse em:** [jl-codelab.github.io](https://jl-codelab.github.io)
 
 ---
 
